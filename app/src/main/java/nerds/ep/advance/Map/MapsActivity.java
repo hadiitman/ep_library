@@ -1,15 +1,12 @@
 package nerds.ep.advance.Map;
 
 import android.Manifest;
-import android.content.Context;
 import android.content.pm.PackageManager;
 import android.location.Location;
-import android.os.Build;
-import android.provider.Settings;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
-import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
@@ -24,7 +21,6 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import io.nlopez.smartlocation.OnLocationUpdatedListener;
 import io.nlopez.smartlocation.SmartLocation;
 import nerds.ep.R;
-import nerds.ep.advance.utils.PublicMethods;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, GoogleMap.OnCameraIdleListener, GoogleMap.OnCameraMoveStartedListener {
 

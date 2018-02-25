@@ -12,7 +12,8 @@
         android:label="ep App"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:name="ep.nerds.eplibrary.utils.BaseApplication">
         <activity android:name=".advance.profile.ProfileActivity_" />
         <activity android:name=".advance.imdb.IMDBActivity_" />
 
