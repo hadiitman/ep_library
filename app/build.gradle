@@ -28,6 +28,6 @@ dependencies {
     compile 'org.androidannotations:androidannotations-api:4.4.0'
     implementation 'com.google.android.gms:play-services-maps:11.4.2'
 
-    implementation project(':eplibrary')
-    // compile 'com.github.hadiitman:ep_library:1.0'
+    // implementation project(':eplibrary')
+     compile 'com.github.hadiitman:ep_library:1.0.0'
 }

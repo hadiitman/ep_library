@@ -10,8 +10,8 @@ android {
     defaultConfig {
         minSdkVersion 18
         targetSdkVersion 27
-        versionCode 100
-        versionName "1.0.0"
+        versionCode 101
+        versionName "1.0.1"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -51,4 +51,5 @@ dependencies {
     compile 'org.greenrobot:eventbus:3.0.0'
     compile 'io.nlopez.smartlocation:library:3.3.3'
     compile 'com.github.rey5137:material:1.2.4'
+    compile 'com.github.hamsaadev:Persian-Date-Picker-Dialog:V1.2'
 }
